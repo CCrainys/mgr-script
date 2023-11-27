@@ -4,9 +4,9 @@
 
 2.创建工作目录
 
-* s-1: mkdir /flash1/test/mysql/deploy/m1/ 
-* s-2: mkdir /flash1/test/mysql/deploy/m2/
-* s-3: mkdir /flash1/test/mysql/deploy/m3/ 
+* s-1: mkdir -p /flash1/test/mysql/deploy/m1/ 
+* s-2: mkdir -p /flash1/test/mysql/deploy/m2/
+* s-3: mkdir -p /flash1/test/mysql/deploy/m3/ 
 
 3.MySQL group replication service
 
