@@ -14,8 +14,8 @@
 
 ``` bash 
 rm -rf /flash1/test/mysql/deploy/m1/*
-mysqld  --defaults-file=/home/ubuntu/gr/gr1.cnf --initialize-insecure
-mysqld  --defaults-file=/home/ubuntu/gr/gr1.cnf &
+mysqld  --defaults-file=/home/ec2-user/gr/gr1.cnf --initialize-insecure
+mysqld  --defaults-file=/home/ec2-user/gr/gr1.cnf &
 
 mysql -uroot -S/flash1/test/mysql/deploy/m1/mysql.sock
 
@@ -58,8 +58,8 @@ SELECT * FROM performance_schema.replication_group_members;
 
 ```bash
 rm -rf /flash1/test/mysql/deploy/m2/*
-mysqld  --defaults-file=/home/ubuntu/gr/gr2.cnf --initialize-insecure
-mysqld  --defaults-file=/home/ubuntu/gr/gr2.cnf &
+mysqld  --defaults-file=/home/ec2-user/gr/gr2.cnf --initialize-insecure
+mysqld  --defaults-file=/home/ec2-user/gr/gr2.cnf &
 
 mysql -uroot -S/flash1/test/mysql/deploy/m2/mysql.sock
 ```
@@ -92,8 +92,8 @@ SELECT * FROM performance_schema.replication_group_members;
 
 ```bash
 rm -rf /flash1/test/mysql/deploy/m3/*
-mysqld  --defaults-file=/home/ubuntu/gr/gr3.cnf --initialize-insecure
-mysqld  --defaults-file=/home/ubuntu/gr/gr3.cnf &
+mysqld  --defaults-file=/home/ec2-user/gr/gr3.cnf --initialize-insecure
+mysqld  --defaults-file=/home/ec2-user/gr/gr3.cnf &
 
 mysql -uroot -S/flash1/test/mysql/deploy/m3/mysql.sock
 ```
