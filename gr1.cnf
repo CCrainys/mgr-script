@@ -30,9 +30,9 @@ loose_group_replication_group_name="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 loose_group_replication_start_on_boot=off
 loose_group_replication_single_primary_mode=OFF;
 loose_group_replication_enforce_update_everywhere_checks=ON;
-loose_group_replication_local_address= "172.16.162.189:13750"
-loose_group_replication_group_seeds= "172.16.162.189:13750,172.17.119.139:13751,172.19.205.15:13752"
-loose_group_replication_ip_allowlist="172.16.162.189,172.17.119.139,172.19.205.15"
+loose_group_replication_local_address= "10.0.10.205:13750"
+loose_group_replication_group_seeds= "10.0.10.205:13750,192.168.27.6:13751,172.31.21.168:13752"
+loose_group_replication_ip_allowlist="10.0.10.205,192.168.27.6,172.31.21.168"
 loose_group_replication_bootstrap_group=off
 
 back_log = 3000
